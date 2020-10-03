@@ -4,7 +4,7 @@ int main(int argc, char *argv[]) {
 	
 	
 	for(int i=-9; i < 10; i++){
-		if(i < 0){
+		if( i < 0 ){
 			printf("%d", -i);
 		}
 		else{
